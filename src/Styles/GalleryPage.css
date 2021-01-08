@@ -1,0 +1,57 @@
+:root {
+    --page-background-color: #ffa60073;
+    --photo-section-text: rgb(255, 115, 0);
+    --photo-section-title: rgb(255, 72, 0);
+    --slash-color: rgb(255, 102, 0);
+    --repeating-text: rgb(255, 255, 255);
+    --photo-border-color: #ffae00;
+  }
+
+
+  .page-content
+  {
+      /*background-image: url('/src/assets/forest.jpg');*/
+      background-color: var(--page-background-color);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+          
+      font-family: 'Nunito' , sans-serif;
+      font-weight: 200;
+      /*color: rgb(34, 23, 48);*/
+        
+  }
+
+  body{
+    font-family: 'Nunito' , sans-serif;
+}
+
+.gallery-title{
+      margin-top: 150px;
+      margin-bottom: 100px;
+      font-size: 2.5rem;
+      font-weight: 100 !important;
+      color: rgb(255, 72, 0) !important;
+      letter-spacing: 5px;
+      
+  }
+
+.gallery-img {
+    width:  400px !important;
+    height: 400px !important;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    img {
+        width:  800px;
+        height: 800px;
+        object-fit: cover;
+    }
+
+}
