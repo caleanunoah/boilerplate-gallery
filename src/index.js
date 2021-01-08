@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-console.log('hello world I have made changes to deployed')
+
 
 ReactDOM.render(
   <React.StrictMode>

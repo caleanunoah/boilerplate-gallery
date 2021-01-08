@@ -1,0 +1,35 @@
+
+:root {
+    --link-color-hover:  rgb(255, 102, 0);
+    --link-color: rgb(255, 255, 255);
+    --brand-color:   rgb(255, 102, 0);
+    
+  }
+
+#navbar {
+    /*position: fixed; */
+    padding: 0 16px;
+    /*top: 0;*/
+    width: 100%;
+    
+}
+
+
+#navbar .nav-brand {
+    color: var(--link-color-hover);
+    font-family: 'Nunito' , sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+}
+
+.nav-links {
+    color: var(--link-color) !important;
+    font-family: 'Nunito' , sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 200 !important;
+}
+
+.nav-links:hover {
+    color: var(--link-color-hover) !important;
+    font-weight: 200 !important;
+}
