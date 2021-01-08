@@ -1,67 +1,48 @@
 // React and Bootstrap modules
 import {React, Component} from 'react';
-//import Button from 'react-bootstrap/Button';
 import { Link} from 'react-router-dom';
 
 // Custom Components
 import Header from "./Header";
 import Footer from './Footer';
 import Banner from './Banner';
-//import RepeatingTitleAndImage from './RepeatingTitleText'
 
-// Stylesheets for all components on the homepage (minus Nav)
+// Stylesheets for all components on the homepage (minus navbar Header)
 import '../Styles/HomePage.css';
 
 class HomePage extends Component {
-    /*
-    constructor(props){
-        super(props);
-        this.state = {
-          name: '',
-          greeting: ''
-        };
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-      }
-  
-      
-      handleChange(event){
-        this.setState({name: event.target.value});
-      }
-  
-      handleSubmit(event){
-        event.preventDefault();
-        fetch(`/api/greeting?=name=${encodeURIComponent(this.state.name)}`).then(response=>response.json()).then(state=>this.setState(state));
-  
-      }
-    */
+
+    // add constructor bc we want to test server connection
     constructor(props){
         super(props);
         this.state = {
         name: '',
         greeting: ''
         };
+        // javascript rules say to bind functions that involve state change
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    
+    // handle changes occuring by updating name (that we want to encode in a uri)
+    // we will send name to server on localhost:3001
     handleChange(event){
         this.setState({name: event.target.value});
     }
 
+    // send to server
     handleSubmit(event){
         event.preventDefault();
         fetch(`/api/greeting?=name=${encodeURIComponent(this.state.name)}`).then(response=>response.json()).then(state=>this.setState(state));
 
     }
 
-    
 
     render(){
         return(
             <>
             <head>
+              {/* Link fonts and other dependencies here*/}
               <link rel="preconnect" href="https://fonts.gstatic.com"></link>
               <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet"></link>
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
@@ -69,6 +50,7 @@ class HomePage extends Component {
             
             <body>
 
+            {/* Navbar header for page navigation (currently doesnt do anything, just for visual */}
             <Header></Header> 
 
               <div className="page-content">
@@ -79,7 +61,7 @@ class HomePage extends Component {
 
 
                   {/* The About Us Section */ }
-                  <section className="container-fluid sections px-0">
+                  <section className="container-fluid sections px-0" id="about" >
                       <div className="row text-center align-items-center page photo-border">
 
                         {/* Photo on the Left */}
@@ -88,7 +70,7 @@ class HomePage extends Component {
                         </div>
 
                         {/* Text content on the right */}
-                        <div className="col-md-6 order-1 order-md-2 zero-pad" id="about" >
+                        <div className="col-md-6 order-1 order-md-2 zero-pad" >
                           <div className="row justify-content-center ">
                             <div className="col-10 col-lg-8">
                               <h2 class="photo-content-title">ABOUT US</h2>
@@ -158,7 +140,9 @@ class HomePage extends Component {
                   
               </div>
 
-              
+            {/* Footer that currently only adds some whitespace for visual nice-ness
+            But would update to have social media/contact links in the future similar to 
+            noah-caleanu.ca */} 
             <Footer></Footer>
             
           </body>

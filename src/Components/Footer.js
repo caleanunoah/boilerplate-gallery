@@ -1,4 +1,6 @@
 import React from "react";
+
+// style sheets
 import '../Styles/Footer.css';
 
 
@@ -10,6 +12,7 @@ class Footer extends React.Component {
         return(
             <>
             <div>
+                {/* footer styled such that it creates more whitespace at bottom  */} 
                 <p className="footer">Footer.js</p>
 
             </div>

@@ -1,4 +1,6 @@
 import React from 'react';
+
+// style sheets 
 import '../Styles/HomePage.css';
 
 class Banner extends React.Component{
