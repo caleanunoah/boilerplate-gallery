@@ -3,6 +3,7 @@
     --link-color-hover:  rgb(255, 102, 0);
     --link-color: rgb(255, 255, 255);
     --brand-color:   rgb(255, 102, 0);
+    --nav-bg: rgba(0, 0, 0, 0.719);
     
   }
 
@@ -11,6 +12,7 @@
     padding: 0 16px;
     /*top: 0;*/
     width: 100%;
+    background-color: var(--nav-bg);
     
 }
 
@@ -32,4 +34,10 @@
 .nav-links:hover {
     color: var(--link-color-hover) !important;
     font-weight: 200 !important;
+}
+
+/* add navbar scroll event so color changes when scolled and transparent at top */
+#navbar.scrolled {
+    background-color: rgba(0,0,0) !important;
+    transition: background-color 200ms linear;
 }

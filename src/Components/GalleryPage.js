@@ -1,8 +1,11 @@
 import {React, Component} from 'react';
-import Header from './Header';
+import { Link} from 'react-router-dom';
 
+import Header from './Header';
+import Footer from './Footer';
 
 import '../Styles/GalleryPage.css';
+import '../Styles/Footer.css';
 
 
 class GalleryPage extends Component {
@@ -78,8 +81,16 @@ class GalleryPage extends Component {
                     </div>
                 </div>
                     
+            {/* Button linking to the Home page*/}
+            <button type="button" className="btn gallery-btn btn-outline-*"> 
+                  <Link to="/" className="gallery-link">Back to Home</Link>
+                  </button> 
 
             </div>
+
+            
+
+            <Footer></Footer>
 
             </body>
             
