@@ -19,8 +19,9 @@ I built a [boilerplate for a website to showcase a photographer's gallery](https
 
 
 ## Built With
-* React on Node.js backend
-* Used visual studios code with github extension
+* React framework for front-end website design
+* React Bootstrap for user interface design
+* Node.js backend
 
 
 
@@ -35,7 +36,6 @@ You will need yarn or npm package manager to install all the dependencies
 ## How It Works
 
 You can see it hosted on heroku here. Or, you can clone the repo's source code. Then, locally you can run "yarn build && npm start" in a command window.
-
 [Check out the project here](https://obscure-coast-37755.herokuapp.com/)
 
 
