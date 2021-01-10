@@ -26,9 +26,12 @@ I built a [boilerplate for a website to showcase a photographer's gallery](https
 
 
 
-## Prequisites
+<!-- ## Prequisites --> 
 
-You will need yarn or npm package manager to install all the dependencies
+<!--You will need yarn or npm package manager to install all the dependencies. You should have: --> 
+ <!-- - an IDE (Visual studios or Sublime) --> 
+  <!--- React and Node installed --> 
+  <!-- - npm or yarn pacakge manager installer --> 
 
 
 
@@ -37,13 +40,6 @@ You will need yarn or npm package manager to install all the dependencies
 
 You can see it hosted on heroku here. Or, you can clone the repo's source code. Then, locally you can run "yarn build && npm start" in a command window.
 [Check out the project here](https://obscure-coast-37755.herokuapp.com/)
-
-
-
-
-## Developed By
-
-- [Noah Caleanu](https://github.com/caleanunoah)
 
 
 
@@ -72,7 +68,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
-## Contact
+## Contact and Developed by
 
 Noah Caleanu
   1. noahcaleanu152@gmail.com
