@@ -74,9 +74,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Contact
 
-Noah Caleanu - [LinkedIn](https://www.linkedin.com/in/noah-caleanu/) - noahcaleanu152@gmail.com
-
-Personal Website: [Link](https://noah-caleanu.ca/)
+Noah Caleanu
+  1. noahcaleanu152@gmail.com
+  2. [LinkedIn](https://www.linkedin.com/in/noah-caleanu/) 
+  3. Personal Website: [Link](https://noah-caleanu.ca/)
 
 
 
