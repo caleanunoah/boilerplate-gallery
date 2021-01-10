@@ -1,4 +1,4 @@
-# Boilerplate-Gallery <img align="right" alt="Sorry, Cannot find photo!" src="./public/logo192.png" width="400px" height="400px" >
+# Boilerplate-Gallery <img align="right" alt="Sorry, Cannot find photo!" src="./public/logo192.png" width="100px" height="100px" >
 
 I built a boilerplate for a website to showcase a gallery of photos. Ideal for photographers, artists, bakers, travellers to show off the beautiful photos you've taken. Works especially well if you have a business associated with the hobby because the homepage is all about the business/person behind the photos. Then at the bottom of the page you can click to view the gallery. 
 
