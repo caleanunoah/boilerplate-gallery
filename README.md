@@ -77,7 +77,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Noah Caleanu
   1. noahcaleanu152@gmail.com
   2. [LinkedIn](https://www.linkedin.com/in/noah-caleanu/) 
-  3. Personal Website: [Link](https://noah-caleanu.ca/)
+  3. [Personal Website](https://noah-caleanu.ca/)
 
 
 
