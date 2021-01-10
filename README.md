@@ -4,16 +4,16 @@ I built a [boilerplate for a website to showcase a photographer's gallery](https
 
 
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+<!-- TABLE OF CONTENTS --> 
+<!-- ## Table of Contents -->
 
-* [Tools and Technologies Used / Built With](#built-with)
-* [Prequisites](#prequisites)
-* [How it Works](#how-it-works)
-* [Developed By](#developed-by)
-* [License](#open-source-license)
-* [Usage/API Docs](#usage--api-docs)
-* [Contact](#contact)
+<!--* [Tools and Technologies Used / Built With](#built-with) -->
+<!--* [Prequisites](#prequisites) -->
+<!--* [How it Works](#how-it-works) -->
+<!--* [Developed By](#developed-by) -->
+<!--* [License](#open-source-license) -->
+<!--* [Usage/API Docs](#usage--api-docs) -->
+<!--* [Contact](#contact) -->
 
 
 
