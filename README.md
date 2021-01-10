@@ -2,6 +2,8 @@
 
 I built a boilerplate for a website to showcase a gallery of photos. Ideal for photographers, artists, bakers, travellers to show off the beautiful photos you've taken. Works especially well if you have a business associated with the hobby because the homepage is all about the business/person behind the photos. Then at the bottom of the page you can click to view the gallery. 
 
+
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -14,13 +16,21 @@ I built a boilerplate for a website to showcase a gallery of photos. Ideal for p
 * [Contact](#contact)
 
 
+
+
 ## Built With
 * React on Node.js backend
 * Used visual studios code with github extension
 
+
+
+
 ## Prequisites
 
-You will need yarn or npm package manager to install all the dependencies 
+You will need yarn or npm package manager to install all the dependencies
+
+
+
 
 ## How It Works
 
@@ -28,9 +38,15 @@ You can see it hosted on heroku here. Or, you can clone the repo's source code. 
 
 [Check out the project here](https://obscure-coast-37755.herokuapp.com/)
 
+
+
+
 ## Developed By
 
 - [Noah Caleanu](https://github.com/caleanunoah)
+
+
+
 
 
 ## Open Source License
@@ -51,6 +67,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
+
+
+
 
 
 ## Contact
