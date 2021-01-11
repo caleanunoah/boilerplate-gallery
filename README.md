@@ -38,8 +38,8 @@ I built a [boilerplate for a website to showcase a photographer's gallery](https
 
 ## How It Works
 
-You can see it hosted on heroku here. Or, you can clone the repo's source code. Then, locally you can run "yarn build && npm start" in a command window.
-[Check out the project here](https://obscure-coast-37755.herokuapp.com/)
+[Check out the project here](https://obscure-coast-37755.herokuapp.com/). Or, you can clone the repo's source code. Then, locally you can run "yarn build && npm start" in a command window.
+
 
 
 
