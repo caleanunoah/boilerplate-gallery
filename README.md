@@ -22,7 +22,6 @@ I built a [boilerplate for a website to showcase a photographer's gallery](https
 * React framework for front-end website design
 * React Bootstrap for user interface design
 * Node.js backend
-* Custom stylings and UI 
 
 
 
