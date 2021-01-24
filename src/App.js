@@ -9,6 +9,7 @@ import {
 // custom components 
 import GalleryPage from './Components/GalleryPage'; 
 import HomePage from './Components/HomePage';
+import ScrollToTop from './Components/ScrollToTop';
 
 // style sheets 
 import './App.css';
@@ -19,7 +20,9 @@ function App() {
 
       {/* Router for external browser navigation */ }
       <BrowserRouter>
-          
+
+          <ScrollToTop/>
+
           <Switch>
             {/* link to gallery page */ }
             <Route path="/gallery" component={GalleryPage}></Route>
