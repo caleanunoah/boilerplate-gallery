@@ -14,6 +14,7 @@ class GalleryPage extends Component {
 
 
     render(){
+
         return(
             <>
             {/* Link fonts and other dependencies here*/}
@@ -42,7 +43,7 @@ class GalleryPage extends Component {
                     <div className="col-lg-4 text-center img-container">
                         <img className="img-fluid gallery-img" src="https://images.unsplash.com/photo-1573614999645-e5f0f16ec15d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="poop"/>  
                         <div class="middle">
-                            <div class="overlay-text">John Doe</div>
+                            <div class="overlay-text"></div>
                         </div>
                     </div>
 
