@@ -1,4 +1,4 @@
-# Boilerplate-Gallery <img align="right" alt="Sorry, Cannot find photo!" src="./public/logo192.png" width="150px" height="150px" >
+# Boilerplate-Gallery <img align="right" alt="Sorry, Cannot find photo!" src="./public/camera.ico" width="150px" height="150px" >
 
 I built a [boilerplate for a website to showcase a photographer's gallery](https://obscure-coast-37755.herokuapp.com/). Ideal for photographers, artists, bakers, travellers to show off the beautiful photos you've taken. Works especially well if you have a business associated with the hobby because the homepage is all about the business/person behind the photos. Then at the bottom of the page you can click to view the gallery. 
 
