@@ -70,12 +70,14 @@ class HomePage extends Component {
                         </div>
 
                         {/* Text content on the right */}
-                        <div className="col-md-6 order-1 order-md-2 zero-pad" >
+                        <div className="col-md-6 order-1 order-md-2 zero-pad">
                           <div className="row justify-content-center ">
                             <div className="col-10 col-lg-8">
                               <h2 class="photo-content-title">ABOUT US</h2>
-                              <p className="lead photo-content">Come visit us during our operating hours
-                              <ul>
+                              <p className="lead photo-content">
+                                  I am an experienced photographer from Vancouver with a small business downtown selling and renting photography equipment.
+                                  Come visit The Gallery during our operating hours
+                              <ul className ="gallery-hours">
                                 <li class="list-item">Monday - Thursday : 8am-8pm</li>
                                 <li class="list-item">Friday : 10am-8pm</li>
                                 <li class="list-item">Weekends : 2am-6pm</li>
@@ -102,7 +104,7 @@ class HomePage extends Component {
                           <div className="row justify-content-center">
                             <div className="col-10 col-lg-8">
                               <h2 class="photo-content-title">OUR EVENTS</h2>
-                              <p className="lead photo-content ">We hold monthly events including photography workshops, brunch, and photography outings. Come join us to see what we are up to next and take a few memorable snapshots while you're at it!</p>
+                              <p className="lead photo-content ">The Gallery holds monthly events for photographers including photography workshops, lessons, and photography outings. See what we are up to next and take a few memorable snapshots while you're at it!</p>
                             </div>
                           </div>
                         </div>
@@ -134,7 +136,7 @@ class HomePage extends Component {
 
                   {/* Button linking to the Gallery Page with photographs*/}
                   <button type="button" className="btn gallery-btn btn-outline-*"> 
-                  <Link to="/gallery" className="gallery-link">Visit Gallery</Link>
+                  <Link to="/photos" className="gallery-link">See My Photos</Link>
                   </button> 
                   
                   

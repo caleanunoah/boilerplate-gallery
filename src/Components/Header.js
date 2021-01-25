@@ -28,15 +28,15 @@ class Header extends React.Component{
                         <Nav className="navbar-nav mr-auto">
                             {/* About  */}
                             <Nav.Item className="navbar-nav nav-justified w-200 text-center">
-                            <Link to='/' className="nav-link d-flex flex-column"> <span className="navbar-brand nav-links mb-0 h1">ABOUT</span></Link>
+                            <Link to='/about' className="nav-link d-flex flex-column"> <span className="navbar-brand nav-links mb-0 h1">ABOUT</span></Link>
                             </Nav.Item>
                             {/* Events */}
                             <Nav.Item className="navbar-nav nav-justified w-200 text-center">
-                            <Link to='/' className="nav-link d-flex flex-column" ><span className="navbar-brand nav-links mb-0 h1">EVENTS</span></Link>
+                            <Link to='/events' className="nav-link d-flex flex-column" ><span className="navbar-brand nav-links mb-0 h1">EVENTS</span></Link>
                             </Nav.Item>
                             {/* Shop */}
                             <Nav.Item className="navbar-nav nav-justified w-200 text-center">
-                            <Link to='/' className="nav-link d-flex flex-column" ><span className="navbar-brand nav-links mb-0 h1">SHOP</span></Link>
+                            <Link to='/shop' className="nav-link d-flex flex-column" ><span className="navbar-brand nav-links mb-0 h1">SHOP</span></Link>
                             </Nav.Item>
                             
                         </Nav>

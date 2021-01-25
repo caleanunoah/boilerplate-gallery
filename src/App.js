@@ -7,6 +7,9 @@ import {
 } from 'react-router-dom';
 
 // custom components 
+import ShopPage from './Components/ShopPage';
+import EventsPage from './Components/EventsPage';
+import AboutPage from './Components/AboutPage';
 import GalleryPage from './Components/GalleryPage'; 
 import HomePage from './Components/HomePage';
 import ScrollToTop from './Components/ScrollToTop';
@@ -25,7 +28,10 @@ function App() {
 
           <Switch>
             {/* link to gallery page */ }
-            <Route path="/gallery" component={GalleryPage}></Route>
+            <Route path="/shop" component={ShopPage}></Route>
+            <Route path="/events" component={EventsPage}></Route>
+            <Route path="/about" component={AboutPage}></Route>
+            <Route path="/photos" component={GalleryPage}></Route>
             {/* home page link -- has to be underneath do not move  */ }
             <Route path="/" component={HomePage}></Route>
 
