@@ -58,6 +58,7 @@ class HomePage extends Component {
                   {/* Repeating Title text and Logo */}
                   
                   <Banner></Banner> 
+                  <Banner></Banner> 
 
 
                   {/* The About Us Section */ }
