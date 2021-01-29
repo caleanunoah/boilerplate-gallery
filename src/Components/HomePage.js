@@ -58,14 +58,7 @@ class HomePage extends Component {
                   {/* Repeating Title text and Logo */}
                   
                   <Banner></Banner>
-                  <Banner></Banner>
-                  <Banner></Banner>
-                  <Banner></Banner>
-                  <Banner></Banner>
-                  <Banner></Banner>
-                  <Banner></Banner>
-                  <Banner></Banner>
-
+                  
                   {/* The About Us Section */ }
                   <section className="container-fluid sections px-0" id="about" >
                       <div className="row text-center align-items-center page photo-border">
