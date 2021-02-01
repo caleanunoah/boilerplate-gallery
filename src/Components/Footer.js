@@ -1,7 +1,7 @@
 import React from "react";
 
 // style sheets
-import '../Styles/Footer.css';
+import '../Styles/HomePage.css';
 
 
 class Footer extends React.Component {

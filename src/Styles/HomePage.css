@@ -1,5 +1,13 @@
 :root {
+    /*
     --page-background-color: #ffa60073;
+    --photo-section-text: rgb(255, 115, 0);
+    --photo-section-title: rgb(255, 72, 0);
+    --slash-color: rgb(255, 102, 0);
+    --repeating-text: rgb(255, 255, 255);
+    --photo-border-color: #ffae00;
+    */
+    --page-background-color: #bebebe5d;
     --photo-section-text: rgb(255, 115, 0);
     --photo-section-title: rgb(255, 72, 0);
     --slash-color: rgb(255, 102, 0);
@@ -117,4 +125,10 @@ body{
     #heading-group h1{
         font-size: 2.15rem;
     }
+}
+
+.footer {
+    background-color: var(--page-background-color);
+    color: #ffa60000;
+    padding-bottom: 100px;
 }

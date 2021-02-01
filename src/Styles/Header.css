@@ -1,10 +1,15 @@
 
 :root {
+    /*
     --link-color-hover:  rgb(255, 102, 0);
     --link-color: rgb(255, 255, 255);
     --brand-color:   rgb(255, 102, 0);
     --nav-bg: rgba(0, 0, 0, 0.719);
-    
+    */
+    --link-color-hover:  rgb(255, 102, 0);
+    --link-color: rgb(255, 255, 255);
+    --brand-color:   rgb(255, 102, 0);
+    --nav-bg: rgba(0, 0, 0, 0.719);
   }
 
 #navbar {
@@ -18,7 +23,7 @@
 
 
 #navbar .nav-brand {
-    color: var(--link-color-hover);
+    color: var(--brand-color);
     font-family: 'Nunito' , sans-serif;
     font-size: 1.5rem !important;
     font-weight: 400 !important;
