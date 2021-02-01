@@ -1,35 +1,7 @@
-:root {
-    /* --page-background-color: #ad9a7573; */
-    --photo-section-text: rgb(255, 115, 0);
-    --photo-section-title: rgb(255, 72, 0);
-    --slash-color: rgb(255, 102, 0);
-    --repeating-text: rgb(255, 255, 255);
-    --photo-border-color: #ffae00;
-  }
-
-/*
-  .page-content
-  {
-      background-color: var(--page-background-color);
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: calc(10px + 2vmin);
-      font-family: 'Nunito' , sans-serif;
-      font-weight: 200;
-        
-  }
-*/
-
-  body{
-    font-family: 'Nunito' , sans-serif;
-}
-
 .row {
     margin: 10px 10px;
 }
+
 .gallery-title{
       text-align: center;
       margin-top: 150px;
