@@ -52,6 +52,7 @@ class HomePage extends Component {
 
             {/* Navbar header for page navigation (currently doesnt do anything, just for visual */}
             <Header></Header> 
+            <Header></Header> 
       
               <div className="page-content">
 
