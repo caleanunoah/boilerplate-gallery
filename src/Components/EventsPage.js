@@ -1,33 +1,50 @@
 import {React, Component} from 'react';
 import moment from 'moment'
-import { Calendar, momentLocalizer  } from 'react-big-calendar' 
+import { Calendar, Views, momentLocalizer  } from 'react-big-calendar' 
 
 // custom components 
 import Header from './Header';
 import Footer from './Footer';
-//import Basic from "./Basic";
+import events from "../Components/events";
+import * as dates from '../Components/dates';
+
 // style sheets
 import '../Styles/GalleryPage.css';
+import "../Styles/EventsPage.css";
 import '../Styles/Footer.css';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 const localizer = momentLocalizer(moment)
 
-const myEventsList = []
-/*
-const MyCalendar = props => (
-    <div>
-        <Calendar
-        localizer={localizer}
-        events={myEventsList}
-        startAccessor="start"
-        endAccessor="end"
-        style={{ height: "500px" }}
-        />
-    </div>
+const myEventsList = [
+    {
+        id: 0,
+        title: 'Beginner Photographer Lessons',
+        allDay: true,
+        start: new Date(2021, 1, 1),
+        end: new Date(2021, 1, 5),
+      },
+      {
+        id: 1,
+        title: 'Photographer Conference',
+        start: new Date(2021, 1, 12),
+        end: new Date(2021, 1, 15),
+      },
+      {
+        id: 1,
+        title: 'Advanced Photographer Lessons',
+        start: new Date(2021, 1, 15),
+        end: new Date(2021, 1, 20),
+      }
+]
 
-)
-*/
+const ColoredDateCellWrapper = ({ children }) =>
+  React.cloneElement(React.Children.only(children), {
+    style: {
+      backgroundColor: 'red',
+    },
+  })
+
 class EventsPage extends Component {
 
 
@@ -46,17 +63,25 @@ class EventsPage extends Component {
 
             <body>
 
-            <div className="page-content">
+            <div className="page-content container-fluid">
 
                
-                <h1 className="gallery-title">Events</h1>
+                <h1 className="event-subtitle">Events</h1>
+                <p className="gallery-text"> 
+                Check out what we have going on every month with our calendar.
+                </p>
+
+                <div className="calendar"> 
                 <Calendar 
                     localizer={localizer}
                     events={myEventsList}
+                    defaultView={Views.MONTH}
                     startAccessor="start"
                     endAccessor="end"
-                    style={{ height: "500px" }}
+                    style={{ height: "900px",
+                            width: "900px"}}
                     />
+                </div>
 
             </div>
 

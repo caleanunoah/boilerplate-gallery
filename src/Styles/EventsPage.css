@@ -1,0 +1,114 @@
+:root {
+    --btn-span-outline-color:  rgb(160, 108, 184);
+}
+
+.event-subtitle {
+    color: var(--photo-section-title) !important;
+    text-align: center;
+    margin-top: 10.5%;
+    margin-bottom: 2.5%;
+    font-size: 2.5rem;
+}
+
+.gallery-text {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 10% !important;
+    margin-top: 0px !important;
+    margin-bottom: 10% !important;
+}
+
+.rbc-toolbar .rbc-toolbar-label {
+    flex-grow: 1;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.rbc-btn-group{
+    border: 1px solid var(--btn-span-outline-color);
+}
+
+@media (max-width: 950px) {
+    .rbc-calendar{
+        width: 700px !important;
+        height: 700px !important;
+    }
+    .rbc-toolbar .rbc-toolbar-label {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 768px) {
+    .event-subtitle {
+        margin-top: 15%;
+    }
+    .rbc-calendar{
+        width: 625px !important;
+        /*height: 500px !important;*/
+    }
+    .rbc-toolbar .rbc-toolbar-label {
+        font-size: 1rem;
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+        width: 100% !important;
+    }
+}
+@media (max-width: 650px) {
+    .rbc-calendar{
+        width: 550px !important;
+    }
+}
+@media (max-width: 575px) {
+    .rbc-calendar{
+        width: 450px !important;
+    }
+}
+@media (max-width: 450px) {
+    .event-subtitle{
+        font-size: 2rem;
+    }
+    .gallery-text {
+        font-size: 1.25rem;
+    }
+    .event-subtitle {
+        margin-top: 20%;
+    }
+    .rbc-calendar{
+        width: 400px !important;
+    }
+}
+@media (max-width: 415px) {
+    .rbc-calendar{
+        width: 350px !important;
+    }
+}
+@media (max-width: 375px) {
+    #navbar .navbar-brand {
+        font-size: 1rem !important;
+    }
+    .event-subtitle{
+        font-size: 1.75rem;
+    }
+    .gallery-text {
+        font-size: 1rem;
+    }
+    .rbc-calendar{
+        width: 270px !important;
+        min-width: 250px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    #navbar .navbar-brand {
+        font-size: 0.75rem !important;
+    }
+    .event-subtitle{
+        font-size: 1.25rem;
+        margin-top: 20%;
+    }
+    .gallery-text {
+        font-size: 1rem;
+    }
+    
+}
