@@ -161,6 +161,8 @@ class HomePage extends Component {
             <Footer></Footer>
             <Footer></Footer>
             <Footer></Footer>
+            <Footer></Footer>
+            <Footer></Footer>
           </body>
             </>
         );
