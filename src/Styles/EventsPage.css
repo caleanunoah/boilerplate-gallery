@@ -1,7 +1,7 @@
 :root {
-    --btn-span-outline-color:  rgb(0, 2, 124);
-    --btn-span-outline-color-light:  rgb(41, 42, 90);
-
+    --btn-span-outline-color:  rgba(0, 2, 112, 0.541);
+    --btn-span-outline-color-light:   rgba(117, 117, 122, 0.212);
+    --month-color: rgba(32, 32, 32, 0.418);;
 }
 
 .event-subtitle {
@@ -38,8 +38,8 @@
     border: 1px solid var(--btn-span-outline-color-light) !important;
 }
 
-.rbc-month-view {
-    border: 1px solid var(--btn-span-outline-color);
+div.rbc-month-view {
+    border: 1px solid var(--month-color);
 }
 
 @media (max-width: 950px) {
