@@ -39,12 +39,6 @@ const myEventsList = [
       }
 ]
 
-const ColoredDateCellWrapper = ({ children }) =>
-  React.cloneElement(React.Children.only(children), {
-    style: {
-      backgroundColor: 'red',
-    },
-  })
 
 class EventsPage extends Component {
 

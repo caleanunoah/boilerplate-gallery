@@ -3,10 +3,12 @@ import { Link} from 'react-router-dom';
 
 // custom components 
 import Header from './Header';
+import Timeline from './Timeline';
 import Footer from './Footer';
 
 // style sheets
 import '../Styles/GalleryPage.css';
+import '../Styles/AboutPage.css'
 import '../Styles/Footer.css';
 
 
@@ -31,10 +33,13 @@ class AboutPage extends Component {
 
             <div className="page-content ">
 
-                {/* Title for Gallery */}
-                <h1 className="gallery-title">About Us</h1>
-            
-                
+                {/* Title  */}
+                <h1 className="event-subtitle">About us</h1>
+                <p className="gallery-text"> 
+                The Gallery started as a photography hobby, but passion drove the opening of our doors as business in 2012. 
+                Click on the years below to read our timeline
+                </p>
+                <Timeline></Timeline>
 
             </div>
 
