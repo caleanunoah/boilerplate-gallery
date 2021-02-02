@@ -9,12 +9,12 @@
     --photo-border-color: #ffae00;
    */
    /* PURPLE THEME */
-    --page-background-color: #a37ea36e;
-    --photo-section-title: rgb(110, 0, 133);
-    --photo-section-text:  rgb(48, 0, 77);
-    --slash-color:  rgb(102, 22, 139);
-    --repeating-text: rgb(255, 255, 255);
-    --photo-border-color: #ffae00;
+    --page-background-color: #41659b0e;
+    --photo-section-title: rgb(0, 2, 126);
+    --photo-section-text:  rgb(0, 2, 126);
+    --slash-color:  rgb(0, 2, 124);
+    --repeating-text: rgb(117, 204, 255);
+    /*--photo-border-color: #ffae00;*/
 
 }
 
@@ -46,7 +46,7 @@ body{
 
 .photo-content-title {
     color: var(--photo-section-title) !important;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 2rem;
 }
 
