@@ -77,6 +77,28 @@ body{
     list-style-type: none;
 }
 
+.mini-btn{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.mini-link{
+    background-color: transparent !important;
+    text-decoration: none;
+    color: var(--photo-section-text);
+    font-weight: 300;
+    font-size: 1.25rem;
+    padding: 8px 20px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.mini-link:hover{
+    background-color: transparent !important;
+    text-decoration: none !important;
+    color: var(--photo-section-text) !important;
+}
+
 .gallery-btn{
     margin-bottom: 100px;
     margin-top: 100px;

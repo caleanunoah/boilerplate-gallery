@@ -82,6 +82,9 @@ class HomePage extends Component {
                                 <li className="list-item">Weekends : 2am-6pm</li>
                               </ul>
                               </p>
+                              <button type="button" className="btn mini-btn btn-outline-*"> 
+                                <Link to="/about" className="mini-link">Read about us</Link>
+                              </button> 
                               
                             </div>
                           </div>
@@ -104,6 +107,9 @@ class HomePage extends Component {
                             <div className="col-10 col-lg-8">
                               <h2 className="photo-content-title">OUR EVENTS</h2>
                               <p className="lead photo-content ">The Gallery holds monthly events for photographers including photography workshops, lessons, and photography outings. See what we are up to next and take a few memorable snapshots while you're at it!</p>
+                              <button type="button" className="btn mini-btn btn-outline-*"> 
+                                <Link to="/events" className="mini-link">See Events</Link>
+                              </button> 
                             </div>
                           </div>
                         </div>
@@ -126,7 +132,9 @@ class HomePage extends Component {
                             <div className="col-10 col-lg-8">
                               <h2 className="photo-content-title">SHOP</h2>
                               <p className="lead photo-content ">Check out the world class photography equipment, lessons, and more at our online shop! Shipping free for Canadian orders over $50.</p>
-                              
+                              <button type="button" className="btn mini-btn btn-outline-*"> 
+                                <Link to="/shop" className="mini-link">Online Store</Link>
+                              </button> 
                             </div>
                           </div>
                         </div>
