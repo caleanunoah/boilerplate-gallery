@@ -1,8 +1,11 @@
 :root {
-    --btn-span-outline-color:  rgba(0, 2, 112, 0.541);
+    --btn-span-outline-color:  rgba(255, 255, 255, 0.541);
     --btn-span-outline-color-light:   rgba(117, 117, 122, 0.212);
-    --month-color: rgba(32, 32, 32, 0.418);;
+    --month-color: rgba(247, 247, 247, 0.418);
+    --calendar-text-color: rgb(255, 255, 255);
+    --calendar-number-color: rgb(243, 130, 0);
 }
+
 
 .event-subtitle {
     color: var(--photo-section-title) !important;
@@ -10,6 +13,9 @@
     margin-top: 10.5%;
     margin-bottom: 2.5%;
     font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.75rem;
+    text-transform: uppercase;
 }
 
 .gallery-text {
@@ -24,8 +30,9 @@
     flex-grow: 1;
     padding: 0 10px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.75rem;
+    color: var(--calendar-text-color);
 }
 
 .rbc-btn-group{
@@ -33,14 +40,32 @@
     border: 1px solid var(--btn-span-outline-color);
 }
 
+.rbc-btn-group > button{
+    color: var(--calendar-number-color) !important;
+    background-color: rgba(207, 93, 0, 0.075);
+}
+
 .rbc-toolbar button{
     border-radius: 4px; 
     border: 1px solid var(--btn-span-outline-color-light) !important;
 }
-
+div.rbc-time-view{
+    color: var(--calendar-number-color);
+}
+div.rbc-agenda-view{
+    color: var(--calendar-text-color);
+}
 div.rbc-month-view {
     border: 1px solid var(--month-color);
 }
+div.rbc-month-header {
+    color: var(--calendar-text-color);
+}
+
+.rbc-date-cell{
+    color: var(--calendar-number-color);
+}
+
 
 @media (max-width: 950px) {
     .rbc-calendar{
@@ -49,6 +74,9 @@ div.rbc-month-view {
     }
     .rbc-toolbar .rbc-toolbar-label {
         font-size: 1.25rem;
+    }
+    .event-subtitle {
+        letter-spacing: 0.35rem;
     }
 }
 @media (max-width: 768px) {
@@ -84,7 +112,7 @@ div.rbc-month-view {
         font-size: 1.25rem;
     }
     .event-subtitle {
-        margin-top: 20%;
+        margin-top: 25%;
     }
     .rbc-calendar{
         width: 400px !important;
@@ -94,7 +122,17 @@ div.rbc-month-view {
     .rbc-calendar{
         width: 350px !important;
     }
+    .event-subtitle{
+        font-size: 1.75rem;
+    }
+    .gallery-text {
+        font-size: 1rem;
+    }
+    .event-subtitle {
+        letter-spacing: 0.20rem;
+    }
 }
+
 @media (max-width: 375px) {
     #navbar .navbar-brand {
         font-size: 1rem !important;
@@ -117,10 +155,10 @@ div.rbc-month-view {
     }
     .event-subtitle{
         font-size: 1.25rem;
-        margin-top: 20%;
+        margin-top: 30%;
     }
     .gallery-text {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     
 }

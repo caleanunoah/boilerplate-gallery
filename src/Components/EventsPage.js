@@ -9,10 +9,11 @@ import events from "../Components/events";
 import * as dates from '../Components/dates';
 
 // style sheets
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import '../Styles/GalleryPage.css';
 import "../Styles/EventsPage.css";
 import '../Styles/Footer.css';
-import 'react-big-calendar/lib/css/react-big-calendar.css';
+
 
 const localizer = momentLocalizer(moment)
 
