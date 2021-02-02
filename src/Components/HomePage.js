@@ -72,14 +72,14 @@ class HomePage extends Component {
                         <div className="col-md-6 order-1 order-md-2 zero-pad">
                           <div className="row justify-content-center ">
                             <div className="col-10 col-lg-8">
-                              <h2 class="photo-content-title">ABOUT US</h2>
+                              <h2 className="photo-content-title">ABOUT US</h2>
                               <p className="lead photo-content">
                                   I am an experienced photographer from Vancouver with a small business downtown selling and renting photography equipment.
                                   Come visit The Gallery during our operating hours
                               <ul className ="gallery-hours">
-                                <li class="list-item">Monday - Thursday : 8am-8pm</li>
-                                <li class="list-item">Friday : 10am-8pm</li>
-                                <li class="list-item">Weekends : 2am-6pm</li>
+                                <li className="list-item">Monday - Thursday : 8am-8pm</li>
+                                <li className="list-item">Friday : 10am-8pm</li>
+                                <li className="list-item">Weekends : 2am-6pm</li>
                               </ul>
                               </p>
                               
@@ -102,7 +102,7 @@ class HomePage extends Component {
                         <div className="col-md-6 zero-pad" >
                           <div className="row justify-content-center">
                             <div className="col-10 col-lg-8">
-                              <h2 class="photo-content-title">OUR EVENTS</h2>
+                              <h2 className="photo-content-title">OUR EVENTS</h2>
                               <p className="lead photo-content ">The Gallery holds monthly events for photographers including photography workshops, lessons, and photography outings. See what we are up to next and take a few memorable snapshots while you're at it!</p>
                             </div>
                           </div>
@@ -124,7 +124,7 @@ class HomePage extends Component {
                         <div className="col-md-6 order-1 order-md-2" >
                           <div className="row justify-content-center">
                             <div className="col-10 col-lg-8">
-                              <h2 class="photo-content-title">SHOP</h2>
+                              <h2 className="photo-content-title">SHOP</h2>
                               <p className="lead photo-content ">Check out the world class photography equipment, lessons, and more at our online shop! Shipping free for Canadian orders over $50.</p>
                               
                             </div>

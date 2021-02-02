@@ -34,7 +34,7 @@ class AboutPage extends Component {
                 {/* Title for Gallery */}
                 <h1 className="gallery-title">About Us</h1>
             
-
+                
 
             </div>
 
