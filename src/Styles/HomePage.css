@@ -90,7 +90,7 @@ body{
     font-size: 1.25rem;
     padding: 8px 20px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .mini-link:hover{
