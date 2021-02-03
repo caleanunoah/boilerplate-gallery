@@ -38,7 +38,7 @@ class Timeline extends React.Component  {
                     </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="2">
-                    <Card.Body>Made first million </Card.Body>
+                    <Card.Body>Opened second location on Broadway</Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>
@@ -58,7 +58,7 @@ class Timeline extends React.Component  {
                     </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="4">
-                    <Card.Body>Opened second location on Broadway </Card.Body>
+                    <Card.Body>Made first million </Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>

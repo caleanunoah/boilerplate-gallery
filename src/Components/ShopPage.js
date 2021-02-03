@@ -3,10 +3,13 @@ import { Link} from 'react-router-dom';
 
 // custom components 
 import Header from './Header';
+import Product from './Product';
 import Footer from './Footer';
 
 // style sheets
 import '../Styles/GalleryPage.css';
+import '../Styles/EventsPage.css';
+import '../Styles/Shop.css';
 import '../Styles/Footer.css';
 
 
@@ -32,9 +35,35 @@ class ShopPage extends Component {
             <div className="page-content ">
 
                 {/* Title for Gallery */}
-                <h1 className="gallery-title">Shop</h1>
+                <h1 className="event-subtitle">Shop</h1>
+                <p className="gallery-text"> 
+                This is our new online selection of cameras, lenses, and accessories.
+                All prices are CAD and we offer free shipping on orders over $50.
+                </p>
             
+                
+                <div className="row justify-content-center img-container">
+                    <div className="col-lg-4 text-center">
+                        {/*
+                        <img className="img-fluid gallery-img product-img" src="https://images.unsplash.com/photo-1587668178269-b941ed743de1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="poop"/>
+                        */}
+                        <Product></Product>
+                        </div>
 
+                    <div className="col-lg-4 text-center img-container">
+                        {/*
+                        <img className="img-fluid gallery-img product-img" src="https://images.unsplash.com/photo-1587668178269-b941ed743de1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="poop"/>
+                        */}
+                        <Product></Product>
+                    </div>
+
+                    <div className="col-lg-4 text-center img-container">
+                        {/*
+                        <img className="img-fluid gallery-img product-img" src="https://images.unsplash.com/photo-1587668178269-b941ed743de1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="poop"/>
+                        */}
+                        <Product ></Product>
+                    </div>
+                </div>
 
             </div>
 
