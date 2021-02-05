@@ -153,7 +153,7 @@ class HomePage extends Component {
             But would update to have social media/contact links in the future similar to 
             noah-caleanu.ca */} 
             <Footer></Footer>
-            
+            <Footer></Footer>
           </body>
             </>
         );
