@@ -154,7 +154,7 @@ class HomePage extends Component {
             noah-caleanu.ca */} 
             <Footer></Footer>
             <Footer></Footer>
-            
+            <Footer></Footer>
           </body>
             </>
         );
