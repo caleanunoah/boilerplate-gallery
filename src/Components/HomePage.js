@@ -3,6 +3,7 @@ import {React, Component} from 'react';
 import { Link} from 'react-router-dom';
 
 // Custom Components
+import ContactPanel from "./ContactPanel";
 import Header from "./Header";
 import Footer from './Footer';
 import Banner from './Banner';
@@ -56,6 +57,8 @@ class HomePage extends Component {
               <div className="page-content">
 
                   {/* Repeating Title text and Logo */}
+                  <ContactPanel></ContactPanel>
+                  
                   
                   <Banner></Banner>
                   
@@ -106,7 +109,8 @@ class HomePage extends Component {
                           <div className="row justify-content-center">
                             <div className="col-10 col-lg-8">
                               <h2 className="photo-content-title">OUR EVENTS</h2>
-                              <p className="lead photo-content ">The Gallery holds monthly events for photographers including photography workshops, lessons, and photography outings. See what we are up to next and take a few memorable snapshots while you're at it!</p>
+                              <p className="lead photo-content ">The Gallery holds monthly events for photographers including photography workshops, lessons, and photography outings. 
+                              Trial lessons available through session booking at</p>
                               <button type="button" className="btn mini-btn btn-outline-*"> 
                                 <Link to="/events" className="mini-link">See Events</Link>
                               </button> 
