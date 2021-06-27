@@ -1,11 +1,16 @@
 :root {
     /* ORANGE THEME */
+
+    /* Page background */ 
+    --page-background-color: #574b395e;
+    --photo-section-text: rgb(0, 0, 0);
     
-    --page-background-color: #a7a7a763;
-    --photo-section-text: rgb(255, 255, 255);
+    /* Banner Style */
+    
     --photo-section-title:  rgb(36, 36, 36);
     --slash-color:  rgb(255, 102, 0);
     --repeating-text: rgb(255, 255, 255);
+    
     --photo-border-color: #020101;
    
    /* PURPLE THEME 

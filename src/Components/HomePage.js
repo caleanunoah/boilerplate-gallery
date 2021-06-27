@@ -57,7 +57,7 @@ class HomePage extends Component {
               <div className="page-content">
 
                   {/* Repeating Title text and Logo */}
-                  <ContactPanel></ContactPanel>
+                 
                   
                   
                   <Banner></Banner>
@@ -156,9 +156,6 @@ class HomePage extends Component {
             {/* Footer that currently only adds some whitespace for visual nice-ness
             But would update to have social media/contact links in the future similar to 
             noah-caleanu.ca */} 
-            <Footer></Footer>
-            <Footer></Footer>
-            <Footer></Footer>
             <Footer></Footer>
                                             
           </body>
